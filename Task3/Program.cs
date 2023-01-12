@@ -20,7 +20,7 @@ int SolutionExercise(int[] array)
     while (currentPosition < Length)
     {
         int currentElement = array[currentPosition];
-        if (currentElement % 5 = 0)
+        if (currentElement % 5 == 0)
         {
             sum = sum + currentElement;
         }
